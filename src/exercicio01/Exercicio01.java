@@ -11,6 +11,5 @@ public class Exercicio01 {
         lista.stream().filter(nome -> nome.startsWith("A"))
                 .map(String::toUpperCase)
                 .forEach(System.out::println);
-
     }
 }
